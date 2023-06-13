@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       ef1b2919-34ef-4007-8fa1-54f219d67a80
+:END:
+#+title: c programming language
+
+Structure of a C progam:
+
+1. Preprocessor Commands
+2. Functions
+3. Variables
+4. Statements & Expressions
+5. Comments
