@@ -1,4 +1,4 @@
-+Title: Solid JS
+#+Title: Solid JS
 
 * Solid Principles
 
