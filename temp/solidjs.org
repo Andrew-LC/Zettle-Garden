@@ -1,4 +1,9 @@
 #+Title: Solid JS
+#+date: 2023:6:22
+
+#+begin_quote
+These are the notes that I took while reading the docs !
+#+end_quote
 
 * Solid Principles
 

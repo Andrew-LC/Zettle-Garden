@@ -1,0 +1,20 @@
+#+Title: PARA Method
+
+"*the ultimate system for organizing your life is one that is actionable."*
+
+The system is basically:
+
+- *Projects*:
+Things you need to complete currently and stuff your'e working on at the moment to be accurate.
+
+- *Areas*:
+These are ongoing and you need to take care of them for a very long time. e.g health, personal development etc.
+
+- *Resources*:
+Topics, things, that you find interesting
+
+Organize information on the basis of goals and actions, organizing them on the basis of subject makes no sense.
+
+* RESOURCES
+
+1. [[https://fortelabs.com/blog/para/][The PARA Method: The Simple System for Organizing Your Digital Life in Seconds]]

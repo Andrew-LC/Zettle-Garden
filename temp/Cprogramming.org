@@ -1,0 +1,50 @@
+#+Title: C Programming 
+
+
+** Chapter 6 - Loops
+
+A loop is a statement whose job is to repeatedly execute some other statement (the loop body). In C, every loop has a controlling expression. Each time the loop body is executed (an iteration of the loop), the controlling expression is evaluated;
+if the expression is true—has a value that’s not zero—the loop continues to execute.
+
+*Types of Loops*
+- While
+- Do while
+- For
+
+** Chapter 7 - Basic Types
+*** Character
+- The values of type char can vary from one computer to another, because different machines may have different underlying character sets.
+
+- Characters use single quotes and not double quotes. 
+
+- A single character is treated as a small integer.
+
+ #+begin_src c 
+   #include <stdio.h>
+   #include <stdlib.h>
+
+
+   int main()
+   {
+     char a = 'a';
+     for(int i = 0; i < 26; i++){
+       printf("%c\n", (char)((int)a + i));
+     }
+
+     printf("============EOF==============\n\n");
+
+     for (char i = 'a'; i <= 'z'; ++i) {
+       printf("%c : %10d\n", i, (int)i);
+     }
+
+     return 0; 
+   }
+#+end_src
+
+- The compiler doesn't read 'a', 'b' etc, it reads the binary reprsentation of the character.(very interesting)
+
+
+** Chapter 10 Program Organization 
+
+- Local Variables have *automatic storage duration*, they're allocated automatically and don't retain their last value.
+- It is block scoped meaning it is available everywhere inside the function.
