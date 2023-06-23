@@ -46,5 +46,23 @@ if the expression is true—has a value that’s not zero—the loop continues t
 
 ** Chapter 10 Program Organization 
 
+*** *Local Variable*
 - Local Variables have *automatic storage duration*, they're allocated automatically and don't retain their last value.
 - It is block scoped meaning it is available everywhere inside the function.
+- Static Local variables have manual storage duration, the value is retained even after the function returns the value, its still blocked scoped.
+
+*** *External Variable*
+- It is Static Storage duration.
+- It has file scope.
+
+*** *Program Orgainzation in C*
+
+#+begin_src 
+  #include directives
+  #define directives
+  Type definitions
+  Declarations of external variables
+  Prototypes for functions other than main
+  Definition of main
+  Definitions of other functions
+#+end_src
