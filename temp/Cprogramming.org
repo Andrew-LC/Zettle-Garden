@@ -1,4 +1,10 @@
 #+Title: C Programming 
+#+Book: C Programming a modern approach
+
+
+#+begin_quote
+Random notes that I took while readin this book !
+#+end_quote
 
 
 ** Chapter 6 - Loops
