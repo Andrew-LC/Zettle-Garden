@@ -1,0 +1,43 @@
+#+TITLE: An Incremental Approach to Compiler Construction
+
+Source language
+Implementation language
+Target Architecture
+Development time frame
+
+*Development Methodology Used in the guide*
+----------------
+1. Choose a small subset of the source language that we can
+compile directly to assembly.
+2. Write as many test cases as necessary to cover the chosen subset
+of the language.
+3. Write a compiler that accepts an expression (in the chosen sub-
+set of the source language) and outputs the equivalent sequence
+of assembly instructions.
+4. Ensure that the compiler is functional, i.e. it passes all the tests
+that are written beforehand.
+5. Refactor the compiler, if necessary, making sure that none of
+the tests are broken due to incorrect refactoring.
+6. Enlarge the subset of the language in a very small step and re-
+peat the cycle by writing more tests and extending the compiler
+to meet the newly-added requirements.
+
+** Writing a Compiler in 24 Small Steps
+*** Immediate Constants
+Scheme can store more than just whole numbers(fixednum integers), booleans, characters etc.
+These are called immediate values and can be stored directly into the machine word.
+
+The way it's stored is to allocate a few bits to define the type of data and the rest to store the values.
+
+e.g:
+#+begin_src 
+2 bits to define fixednum, rest 30 bits for value.
+8 bits to define characters, rest 24 bits to store value.
+(mask)                         (tag)
+#+end_src
+
+
+
+RESOURCES:
+-----------
+- [[https://nullprogram.com/blog/2015/05/15/][Raw Linux Threads via System Calls]] 
