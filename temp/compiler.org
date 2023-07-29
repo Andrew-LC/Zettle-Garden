@@ -20,7 +20,7 @@ that are written beforehand.
 the tests are broken due to incorrect refactoring.
 6. Enlarge the subset of the language in a very small step and re-
 peat the cycle by writing more tests and extending the compiler
-to meet the newly-added requirements.
+To meet the newly-added requirements.
 
 ** Writing a Compiler in 24 Small Steps
 *** Immediate Constants
@@ -40,4 +40,4 @@ e.g:
 
 RESOURCES:
 -----------
-- [[https://nullprogram.com/blog/2015/05/15/][Raw Linux Threads via System Calls]] 
+ - [[https://nullprogram.com/blog/2015/05/15/][Raw Linux Threads via System Calls]] 

@@ -1,0 +1,23 @@
+#+Title: Introduction
+
+* Table of contents
++ Language Processors
++ The Structures of a compiler
++ The evolution of Programming Languages
++ The Science of Building a Comppiler
++ Applications of Compiler Technology
++ Programming Language Basics
+
+** Review questions
++ What is a compiler ?
++ What is a interpreter ?
++ What are the steps taken by the compiler ?
+
+** Keywords 
++ context-free grammars
++ finite-state machines
++ regular expressions
+
+
+** Notes
+

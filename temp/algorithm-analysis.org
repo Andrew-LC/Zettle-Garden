@@ -1,0 +1,25 @@
+#+title: Algorithm Analysis
+
+We can assess an algorithms efficiency using two tools:
+1. RAM Model
+2. Asymptotic analysis
+
+The RAM model simplifies what happens when you run the algorithm and makes it easier to understand the efficiency of the model.
+Example the accepted fact is that the earth is oval in shape but the flat model is quite effective when we build houses and etc.
+
+The model states:
++ Every operations take only one step
++ Loops and subroutines are compositions of steps
++ Every memory access takes one step
+
+
++ Time complexities are numerical functions representing time vs problem size.
+
++ It is much easier to think about the worst case.
+
++ Thinking in upper bound and lower bound is more useful, e.g we want to know how bad or good the algorithm runs compared to the average case.
+
++ Nested iterations are mutliplied with each other e.g two for loops inside each other has nxn.
+
+
+
