@@ -1,0 +1,7 @@
+#+title: Regression
+
+It is a type of supervised learning model.
+
+Training Set - Data used to train the model
+
+

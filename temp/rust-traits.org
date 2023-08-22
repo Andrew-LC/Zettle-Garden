@@ -1,0 +1,46 @@
+#+title: Rust Memory Jogger
+
+Rust is really interesting in it's approach to stuff, a few of the main
+features or thing to learn in rust.
+
+** Membership or Ownership
+Each varible is basically the owner of the value it has and we cannot do multiple assigments to it or have a reference that is mutable.
+
+#+begin_src rust 
+ let name = "andre";
+ name = name + "w"; // Error multple assigment
+ let borrwoedname = name;
+#+end_src
+
+** Traits
+Think of it like an Abstract class or interface
+
+#+begin_src rust 
+trait Shape {
+    fn area(&self) -> f64;
+    fn perimeter(&self) -> f64;
+}
+
+struct Rectangle {
+    width: f64,
+    height: f64,
+}
+
+impl Shape for Rectangle {
+    fn area(&self) -> f64 {
+        self.width * self.height
+    }
+
+    fn perimeter(&self) -> f64 {
+        2.0 * (self.width + self.height)
+    }
+}
+
+fn main() {
+    let rectangle = Rectangle { width: 5.0, height: 3.0 };
+    
+    println!("Rectangle area: {}", rectangle.area());
+    println!("Rectangle perimeter: {}", rectangle.perimeter());
+}
+#+end_src
+
